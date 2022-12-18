@@ -3,3 +3,5 @@ spacy
 pandas
 matplotlib
 gensim
+spacyturk
+gensim_sum_ext

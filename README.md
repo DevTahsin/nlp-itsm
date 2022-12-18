@@ -4,6 +4,14 @@ ticket classifacation for ITSM solutions using NLP methods
 # motivation
 This project started as a computer engineering graduation thesis at Süleyman Demirel University.
 
+# special thanks to repos
+[Turkish spaCy models from spacyturk](https://github.com/spacyturk/spacyturk)
+
+# setup
+- install dependencies by pip install -r requirements.txt
+- run python ./data/spacyturk_model.py to install spaCy turkish model by spacyturk
+
+
 # repo faq
 ``data`` klasörü: bu klasör proje için kullanılacak verileri içerir. Örneğin, eğitim verileri, test verileri, girdi verileri gibi.
 ``src`` klasörü: bu klasör proje kodlarını içerir. Örneğin, Python dosyaları, Jupyter notebook dosyaları gibi.
