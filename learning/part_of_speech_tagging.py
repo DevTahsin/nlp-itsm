@@ -3,7 +3,7 @@
 # ADJ: Sıfat
 # ADP: Edat
 # ADV: Zarf
-# AUX: Fiil
+# AUX: Y.Fiil
 # CONJ: Bağlaç
 # DET: Belirteç
 # INTJ: Seslenme
