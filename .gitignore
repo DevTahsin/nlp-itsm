@@ -132,3 +132,5 @@ dmypy.json
 .vscode
 
 /data/*.json
+/data/*.html
+data/x.json.html

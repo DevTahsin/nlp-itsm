@@ -18,10 +18,7 @@ for data in dataArray[1:3]:
     elif lan != 'en':
         continue
     resultDataToPush['classification'] = zero_shot_classification(data, [
-        'question', 'request', 'problem', 'incident', 'improvement', 
-        'urgent', 'important', 'asset','positive','negative',
-        'ticket','trouble','difficult','hard','easy',
-        'error','failure','mistake','succcess','accomplishment',
+        "question", "request", "problem", "incident", "improvement","ticket","trouble","difficult","hard","easy","error","failure","mistake","succcess","accomplishment","urgent","high priority","medium priority","low priority","network issue","hardware issue","software issue","account management","user access","security","data backup","performance","training","support request","bug report","feature request","configuration","integration","maintenance","outage","service request","account lockout","password reset","spam","phishing","virus","malware","ransomware","cybersecurity","compliance","encryption","cloud","virtualization","devops","agile","scrum","kanban","lean","six sigma","project management","resource allocation","time tracking","budgeting","procurement","contract management","legal","hr","payroll","benefits","recruiting","development","career growth","diversity","inclusion","culture","wellness","safety","environment","sustainability","quality control","quality assurance","testing","debugging","documentation","knowledge management","learning management","training management","performance management","succession planning","talent management","workforce planning","workforce development","workforce analytics","workforce optimization","workforce engagement","employee experience","employee satisfaction","employee retention","employee turnover","employee relations","employee development","employee performance","employee feedback","employee recognition","employee rewards","employee benefits","employee programs","employee services","employee support","employee resources","employee assistance","employee health","employee safety","employee wellness","employee culture","employee diversity","employee inclusion","employee equity","employee belonging","application","database","web","mobile","setup","server","vpn"
         ])
     resultData.append(resultDataToPush)
     print(resultDataToPush)
