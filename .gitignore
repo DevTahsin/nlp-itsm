@@ -134,3 +134,6 @@ dmypy.json
 /data/*.json
 /data/*.html
 data/x.json.html
+data/b_result_0_200.json.html
+data/b_result.json.html
+data/x.json.html
